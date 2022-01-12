@@ -16,7 +16,7 @@ void loop() {
   myStepper_28BYJ.step(stepsPerRevolution);
   delay(500);
   Serial.println("clockwise");
-  myStepper_28BYJ.step(-stepPerRevolution);
+  myStepper_28BYJ.step(-stepsPerRevolution);
   delay(500);
   
 }
